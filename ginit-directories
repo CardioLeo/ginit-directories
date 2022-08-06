@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# Author: William Z Chadwick
+# Date Created: 08/06/2022
+# Date Modified: 08/06/2022
+# Description: An attempt at a bash script that will make all of my code
+# directories in the correct order and hierarchy in case I want to start
+# coding on a new machine or in case I have to start over yet again on one
+# of my regular machines.
+# Usage: code-directories
+
+mkdir ./Coding/ && /
+cd Coding/ && /
+echo "Main coding directory made." && /
+mkdir ./ACC-Bootcamp ./active_websites ./aux_git_repos ./CPP ./Cryptography ./Linux ./myWebsite ./Programming_Hero ./TheOdinProject ./repoTesting && /
+echo "Secondary coding directories made." && /
+cd ./ACC-Bootcamp/ && /
+mkdir Promineo_Tech/ && /
+echo "Promineo_Tech directory made." && /
+cd Promineo_Tech/ && /
+mkdir  front_end_promineo/ back_end_promineo/ big_data_promineo/ && /
+echo "Three sub-promineo directories made."
+cd ../../active_websites/ && /
+mkdir my_website/ odin_recipes/ && /
+echo "Personal and recipe website directories made." && /
+cd ../aux_git_repos/ && /
+mkdir perilous_resonance/ practice_library/ && /
+echo "perilous_resonance and practice_library directories made." && /
+cd ../CPP/ && /
+mkdir SoloLearn/ Udemy1/ && /
+echo "SoloLearn and Udemy1 directories made." && /
+cd ../Cryptography/ && /
+mkdir brute_force/ && /
+echo "brute_force directory made." && /
+cd ../Linux/ && /
+mkdir bash_course/ my_bash_scripts/ && /
+echo "bash_course and my_bash_scripts directories made." && /
+cd ../TheOdinProject/ && /
+mkdir odin_foundations/ && /
+echo "odin_foundations directory made." && /
+echo "All coding directories made. code-directories script complete." && /
+echo "You may now move onto initiating or cloning git repositories."
+
+exit 0
